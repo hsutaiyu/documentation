@@ -38,3 +38,8 @@
 Let's say I make some changes.
 
 And then some more.
+
+ Column1 | Column 2
+ -------|----------
+ Data 1 | Data 2
+ Data 3 | Data 4
