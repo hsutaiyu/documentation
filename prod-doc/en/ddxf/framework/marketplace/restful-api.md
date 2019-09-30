@@ -238,7 +238,7 @@ method：POST
 
 ###  仲裁
 ```
-url：/api/v1/order/arbitrage
+url：/api/v1/order/arbitration
 method：POST
 ```
 
@@ -265,7 +265,7 @@ method：POST
 
 ```json
 {
-	"action": "arbitrage",
+	"action": "arbitration",
 	"error": 0,
 	"desc": "SUCCESS",
 	"result": {
