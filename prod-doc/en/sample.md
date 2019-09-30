@@ -43,3 +43,16 @@ And then some more.
  -------|----------
  Data 1 | Data 2
  Data 3 | Data 4
+
+ ```c++
+
+#include iostream
+
+void main()
+{
+    cout << "Hello world";
+    return 0; 
+    
+}
+
+ ```
