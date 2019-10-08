@@ -7,4 +7,11 @@
    1. Can automatically deploy a synchronization node
    2. Monitor wallet balance, issue warning when insufficient
 5. [User defined signing server deployment](https://github.com/hsutaiyu/documentation/blob/master/prod-doc/en/ontid/framework/signing-server/deployment_EN.md) comes next.
-6. 
+
+Next, register the self defined on-chain action in the signing server configuration file. The fields are as follows-
+
+Field | Description |
+------|-------------|
+type  | Action type |
+onchainRec | `true` denotes there is a need to be on-chain, `false` denotes it is not necessary.
+payer | If not set, the user bears the cost. If left blank, `defaultPayer` bears the cost. Also, the private key obtained from the payer's end is used to sign the transaction carried out later.
