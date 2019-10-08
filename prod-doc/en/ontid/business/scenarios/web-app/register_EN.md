@@ -1,3 +1,5 @@
+[中文](https://github.com/hsutaiyu/documentation/blob/master/prod-doc/en/ontid/business/scenarios/web-app/register.md) | English
+
 # Web App - Registration
 
 

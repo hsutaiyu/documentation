@@ -1,3 +1,5 @@
+中文 | [English](https://github.com/hsutaiyu/documentation/blob/master/prod-doc/en/ontid/business/scenarios/web-app/register_EN.md)
+
 # Web-app - register
 
 1. 用户使用 ONT Auth 注册自我管理的`ONT ID` // TODO：概念的链接
