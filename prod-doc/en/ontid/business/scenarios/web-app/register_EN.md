@@ -19,4 +19,4 @@
    2. After receving the signed data sent by `ONT Auth` the signing server verifies the validity. If successful, the `ONT ID` is sent to the web app
 7. Web app links the account and the respective ONT ID and transfers the cached information to the newly created account.
 
->Note : Registration process may be carried out in the following sequence  1 --> 2 --> 5--> 6--> 7 --> 3 --> 4
+>Note : Registration process may be carried out in the following sequence  1 --> 2 --> 5 --> 6 --> 7 --> 3 --> 4
