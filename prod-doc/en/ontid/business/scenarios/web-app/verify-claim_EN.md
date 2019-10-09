@@ -40,7 +40,7 @@
     "action": "claimCallback",
     "id": "10ba038e-48da-487b-96e8-8d3b99b6d18a",
     "error": 0,
-    "desc": "SUCCESS", // 最终结果
+    "desc": "SUCCESS", // Final result
     "version": "v1"
     }
    ```
