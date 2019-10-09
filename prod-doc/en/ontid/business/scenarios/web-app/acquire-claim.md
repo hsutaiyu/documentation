@@ -1,4 +1,4 @@
-中文 | [English]((https://github.com/hsutaiyu/documentation/blob/master/prod-doc/en/ontid/business/scenarios/web-app/acquire-claim_EN.md))
+中文 | [English](https://github.com/hsutaiyu/documentation/blob/master/prod-doc/en/ontid/business/scenarios/web-app/acquire-claim_EN.md)
 
 # Web-app - acquire claim
 
