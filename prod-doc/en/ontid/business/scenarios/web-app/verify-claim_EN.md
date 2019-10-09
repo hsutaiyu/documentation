@@ -35,12 +35,12 @@
 2. After the signature process is completed, `ontoAuth` invokes Restful API to send the locally saved claim to the web app.
 3. Web app carries out public key verification, queries the claim's status on-chain, then returns the result.
    
-   ```json
+   ```yaml
     {
     "action": "claimCallback",
     "id": "10ba038e-48da-487b-96e8-8d3b99b6d18a",
     "error": 0,
-    "desc": "SUCCESS", // Final result
+    "desc": "SUCCESS", # Final result
     "version": "v1"
     }
    ```
