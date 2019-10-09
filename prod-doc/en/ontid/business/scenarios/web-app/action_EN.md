@@ -1,6 +1,6 @@
 # Web app - On-chain Action
 
-1. Define the pre-designed on-chain action template.
+1. Define the default on-chain action template.
 2. Determine whether or not the on-chian action is still meant for verification and signature.
 3. Implement the on-chain action and the follow up off-chain action.
 4. Web App designates a wallet that will pay the transaction fees, and prompts it to maintain ONG balance for the same.
