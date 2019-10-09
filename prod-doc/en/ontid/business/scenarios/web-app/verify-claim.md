@@ -1,3 +1,5 @@
+中文 | [English]((https://github.com/hsutaiyu/documentation/blob/master/prod-doc/en/ontid/business/scenarios/web-app/verify-claim_EN.md))
+
 # Web-app - verify claim
 
 1. 根据Singing-SDK 方法 得到二维码参数，通过 ontoAuth Signing server 扫码签名
