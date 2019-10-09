@@ -1,3 +1,5 @@
+中文 | [English]((https://github.com/hsutaiyu/documentation/blob/master/prod-doc/en/ontid/business/scenarios/web-app/acquire-claim_EN.md))
+
 # Web-app - acquire claim
 
 1. 定义自身校验需求的 claim 模板
