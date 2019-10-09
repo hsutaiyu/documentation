@@ -5,7 +5,7 @@
 1. Receiving the QR code parameter based on the Signing SDK method, and then signing the scanned code using using `ontoAuth` signing server
    * First, a credible action name needs to be registered for declaration.
   
-    ```json
+    ```yaml
         {
     "domain": "on.ont",
     "enableONS": true,
