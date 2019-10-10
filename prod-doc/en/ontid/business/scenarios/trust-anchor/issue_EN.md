@@ -10,7 +10,7 @@
 5. The state is saved on the chain.
    * Periodic checks can be performed on the issued claim, if invalid at any point the status must be updated on the blockchain
 
-## Examples
+## Illustration
 
 1. The applicant needs to submit their inspection data. If found to be valid, the next step can be executed
 
