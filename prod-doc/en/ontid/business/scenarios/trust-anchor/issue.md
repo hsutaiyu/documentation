@@ -1,3 +1,5 @@
+中文 | [English](https://github.com/hsutaiyu/documentation/blob/master/prod-doc/en/ontid/business/scenarios/trust-anchor/issue_EN.md)
+
 # Trust anchor - issue claim
 
 1. 定义自身 claim 模板

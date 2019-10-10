@@ -1,3 +1,5 @@
+[中文](https://github.com/hsutaiyu/documentation/blob/master/prod-doc/en/ontid/business/scenarios/trust-anchor/issue.md) | English
+
 # Trust Anchor - Issue Claim
 
 1. The self verification `claim` template is defined
