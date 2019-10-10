@@ -1,3 +1,5 @@
+中文 | [English](https://github.com/hsutaiyu/documentation/blob/master/prod-doc/en/ontid/business/scenarios/trust-anchor/verify_EN.md)
+
 # Trust anchor - verify claim
 
 1. 确定 claim 验签公钥，开放给验签方
