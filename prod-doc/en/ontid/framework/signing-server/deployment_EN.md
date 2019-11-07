@@ -65,13 +65,9 @@ To set up the `default payer`, the private key corrresponding to the `payer` nee
 
 ### 2.3 Config action(s)
 
-配置指定签名action的payer及是否上链
-
 Configure the `payer` to specify the signed `action` and whether it is synced on-chain.
 
 ### 2.4 Add customized action 
-
-自定义需要signing server签名的action
 
 Customization requires the `action` signed by the `signing server`.
 
