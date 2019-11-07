@@ -1,4 +1,4 @@
-中文 | [English](/deployment_EN.md)
+中文 | [English](deployment_EN.md)
 
 # ONT ID signing server - deployment
 
