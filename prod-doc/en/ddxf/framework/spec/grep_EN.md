@@ -6,22 +6,21 @@ GREP is a decentralized resource exchange protocol that is fundamentally built o
 
 ## 1. Resource tokenization and assetization
 
-通过 GREP，任何人都可以快速而又便捷地建立多样化的资源链上确权和流转平台。
+GREP can be used to quickly and conviniently set up a platform that support ownership and exchange of on-chain resources.
 
-- 资源可以是数字资源，例如，数据、CPU 算力、GPU 算力、存储、链上 Oracle 和可信计算平台等；
-- 一些实体资源，例如房产、古董字画等。
+> Resources could be digital in nature, for example, data, CPU or GPU processing power, storage, on-chain Oracles and trustable computing platforms, etc., or  physical in nature such as real estate, creative productions like paintings or calligraphy, etc.
 
-平台可以是个通用性平台，能实现多种资源的流转；它可以是一个特定资源的交换平台，精细化地实现某种特定资源的流转。
+The platform can be universal in nature that where resource of different kinds can be exchanged, or it can be specific to a resource of one particular nature.
 
-资源流转是资源以 ONG、OEP-4 代币等的形式，或是以资源或资源的形式。可能的资源流转形式包括但不限于：
+Resource exchange can take place in the form of ONG or OEP-4 tokens, or in another form of resource. Different forms of resource flow include, but are not limited to:
 
-- 数据资源流转，例如:医疗大数据(的分析结果)换取 ONG；
-- 算力资源流转，例如:可信计算算力换取 PAX；
-- 实体资源流转，例如:名画所有权进行分割拍卖等。
+- Data resource flow, for e.g. Medical big data and corresponding research results exchanged for ONG
+- Processing power resource flow, for e.g. trusted computational processing power exchanged for PAX
+- Physical resource flow, for e.g. Ownership and auction splitting of paintings
 
-资源的流转实际上就是将资源相应权利 Token 化，并进行 Token 流转。对于某个资源来说，其流转的可能是其所有权，或者是使用权以及其它相应的权利。具有链下实体的资源需要进行链下交割，而链下交割的方式将由资源的性质等方面决定。
+What resource flow basically means is to tokenize the privileges to these resources and then allow exchange of these tokens. With regards to a particular resource, the privileges could be access privileges, or owner privileges. The resources that have a physical body would need to be delivered and released, and the release mechanism needs to be designed based on the properties of the resource.
 
-在 GREP 中，公链 Ontology 提供了重要的去中心化信任基础。GREP 的用户需要为自己生成一个相应 的 ONT ID，并根据交易市场的需要进行注册和/或相关的用户资质认证。资源在交易过程中同样需要在链上进行注册，一般会抽取资源的唯一特征码生成数字指纹，并为资源生成相应的 ONT ID。
+Ontology public chain has provided a decentralized trust structure with `GREP`. The end users need to register a corresponding `ONT ID`, and the registration process must be carried out with respect to the transaction market with the necessary credential verification. The on-chain resources also need to be regeistered when carrying out a transaction, which is generally done by generating a unique digital fingerprint by fetching relevant identifying data of the resource, which would also be used to generate and `ONT ID` for the resource.
 
 ## 2. Token-based exchange mechanism
 
