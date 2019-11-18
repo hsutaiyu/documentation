@@ -1,5 +1,6 @@
 # Generic Resources Exchange Protocol (GREP)
-GREP 是一套建立于 Ontlogy 主链基础设施上的去中心化资源交换协议。通过使用 GREP，用户可以快速建立数据等资源的链上确权和流转平台。得益于 Ontology 信任生态体系基础设施的完备性，在去中心化身份标识 ONT ID、去中心多源认证系统 Trust Anchor、可信链外数据连接器 Oracle 以及去中心化电子合同及签章系统 ONT Sign 等多种信任协作组件的协同支撑下， GREP 可以为去中心化资源交换提供坚实的信任基础。 
+
+GREP is a decentralized resource exchange protocol that is fundamentally built on the Ontology blockchain infrastructure. GREp can be used to build platforms that have the ability to verify access and carry out exchange of data resources, etc. By the virtue of Ontology trust ecosystem and the support of other components and protocols such as the decentralized identity protocol `ONT ID`, decentralized trust verification centers **trust anchors**, trusted off-chain data link servers **oracle**, decentralized digital contracts and signature systems such as **ONT Sign**, `GREP` can provide the base for decentralized resource exchange.
 
 ![overall](../res/overall.png)
 
