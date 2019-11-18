@@ -1,3 +1,5 @@
+中文 | [English](deployment_EN.md)
+
 # ONT ID signing server - deployment
 
 ## 1. Prerequisite
