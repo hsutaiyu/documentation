@@ -24,17 +24,17 @@ Ontology public chain has provided a decentralized trust structure with `GREP`. 
 
 ## 2. Token-based exchange mechanism
 
-资源交换或数据交互的过程可以看做是 Token 流转和交换的过程，通过智能合约保证执行。 
+Resource or data exchange can be understood as being analogical to **Token** flow and exchange process. The exchange process and conditions that are put in place are ensured using smart contracts. 
 
 ### 2.1 角色
 
-GREP 定义以下几类角色实现可信的 Token 交换：
+GREP defines the following parties that involve the trust based token exchange mechanism:
 
-- 资源提供者 Resource Privoder (RP):拥有资源的实体，并将资源开放给市场，以资源通过 某种定价体系换取一定的报酬(例如, ONG 或其它某种资源)。此类实体有很多种类，比如数据所有者、算力拥有者、数据收集平台以及具有一定权限的数据托管方等等。
-- 资源需求者 Resource Consumer (RC):资源提供者的交易对手方，是需要某种资源的实体，从资源提供者中获取资源的(部分)所有权或者使用权，并为此支付一定的报酬(例如 ONG)。
-- 资源认证方 Resource Authenticator(RA):具有一定权威性的第三方，拥有自己的资源质量认证体系，根据该体系可以给资源或者资源提供者提供一定方式的认证增强资源或者资源提供者的可信度。认证根据不同的模式可以收取或者不收取认证费用。与没有经过认证的资源相比，经过认证的资源会拥有更多的潜在买家以及可能获得更高的报酬。
-- 链下仲裁者 Off-chain Judge (OJ):资源提供者和资源需求者在资源交易中都认可的链下纠纷仲裁者。链下产生的纠纷(如资源没有获取到)将由链下仲裁者进行裁定。
-- 交易市场 Marketplace (MP):是连系资源提供者和资源需求者的纽带，存储资源的元信息，为资源提供灵活的展示和快捷的搜索，收取交易费用。每个交易市场可以按照自身交易的特性提供伸缩化的灵活服务，比如提供元信息模板、解决链下纠纷的电子合同模板等供交易双方具现化 后使用。MP 一般拥有资源交易定价体系。另外，MP 一般也拥有资源交易信息披露体系，可以对公众或者监管部门进行交易信息披露。
+- Resource Provider (RP): possesses the physical resource and makes it available to the market, where the resource can be exchanged for a price set by a pricing system (say in `ONG` or other similar tokens). There are many different kinds of entities that belong to this category, such as data owners, processing cloud platforms, data collection and custodian platforms with certain privileges, etc.
+- Resource Consumer (RC): The complementary party to the resource provider who needs the physical resource. Ownership or access privileges are transferred to the consumer when they provide compensation to the resource provider using tokens such as `ONG`
+- Resource Authenticator (RA): A third party with certain authority. This party has its own resource quality assessment system. Based on the assessment, the authenticator can approve a certain resource or a resource provider thereby increasing their credibility. The verification process may or may not incur costs, depending upon the verification process. Resources that have been verified have a greater value and potential, and thus higher price values.
+- Off-chan Judge (OJ): The resource provider and the potential resource consumer acknowledge an off-chain dispute arbitrator. If there are any issues that come up during the transaction process, this arbitrator comes into the picture to resolve the issues.
+- Marketplace (MP): The link between resource providers and resource consumers. This is where the resource meta data is stored so as to allow for to to be readily available and accessible through a convenient search. They charge a minimal transaction cost. Each transaction market can provide flexible and scalable services such as providing meta information templates, digital contract templates, dispute arbitration, etc. based on its own trading model and characterstics.
 
 ### 2.2 Token 交易流程
 
