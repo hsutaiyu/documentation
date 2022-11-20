@@ -118,7 +118,7 @@ An executable program will be generated after a successful compilation
      Create account successfully.
      ```
 
-     ​
+     
 
    - Directory Structure
 
@@ -148,7 +148,7 @@ An executable program will be generated after a successful compilation
      --wsport value  Ws server listening port (default: 20335)
    ```
 
-   ​
+   
 
 ## 2. Use CLI Client
 
@@ -451,7 +451,8 @@ With regard to user withdrawal, the exchange needs to complete the following ope
    The gas limit is called the limit because it's the maximum amount of units of gas you are willing to spend on a transaction. 
    However, the actual gas cost is determined by the number of steps or APIs executed by the VM, assuming the following two conditions:  
       1. gaslimit>= actual cost, the transaction will be executed successfully, and return the unconsumed gas;  
-      2. Gaslimt< actual cost, the transaction will fail to execute and consume the gas that the VM has already executed;  
+         2. Gaslimt< actual cost, the transaction will fail to execute and consume the gas that the VM has already executed;  
+
         The minimum gas limit allowed for trading is 30,000. Transactions below this amount will not be packaged.
            Gaslimit can be calculate by transaction pre-execution. (Of course by different execution context, such as time, this is not a definite value).  
            In order to make the use of ONT/ONG simpler, all methods of ONT/ONG are set to the lowest gas limit, ie, 30000 gas.
@@ -514,7 +515,7 @@ With regard to user withdrawal, the exchange needs to complete the following ope
 
    - If the transaction is not packaged for a long time, it may be due to the gas price being too low.
 
-     ​
+     
 
 ## 4. Java SDK Tutorials
 
@@ -918,8 +919,9 @@ String hash = sdk.nativevm().ong().withdrawOng(account,toAddr,64000L,payerAcct,3
 | :----------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
 | makeClaimOng | String claimer,String to,long amount,String payer,long gaslimit,long gasprice | claimer，who to send，amount, network payer address，gaslimit，gasprice |
 
-
 ## 4. Distribute ONG to Users
+
+**NOTE: the following section unavailable since ontology 2.0 update on July 7th 2020**
 
 The exchange can choose whether to distribute the ONG to users. The ONG is used to pay for the Ontology blockchain bookkeeping fees, network fees, and other service fees.
 
@@ -1019,7 +1021,7 @@ Use Java SDK:
            wm.neovm().oep4().setContractAddress("55e02438c938f6f4eb15a9cb315b26d0169b7fd7");
    ```
 
-   ​
+   
 
 2. transfer
 
@@ -1032,7 +1034,7 @@ Use Java SDK:
    500);                                         //gasprice    
    ```
 
-   ​
+   
 
 3. monitor contract events
 
@@ -1139,3 +1141,10 @@ Use Java SDK:
 ## Mainnet update note
 please refer to the following note to check whether you need to upgrade your sdk version or not:
 [Update note](https://github.com/ontio/documentation/blob/master/exchangeDocs/Ontology%20mainnet%20update%20note.md)
+
+
+
+### Decimal ONT / ONG
+
+please refer to [Ontology_Decimal&EVM_update](./Ontology_Decimal&EVM_update.md)
+
